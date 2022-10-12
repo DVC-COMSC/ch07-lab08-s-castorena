@@ -3,12 +3,11 @@
 # ******************************
 # Sarah Castorena
 # SID
-numbers = []
-count = 0
-while count < 5:
-    num = int(input('Enter numbers in acending order'))
-    numbers.append(num) 
-    count = count + 1
+#numbers = []
+num = input('Enter 5 number in acending order')
+numbers = list(map(int,num.split()))
+    #numbers.append(num) 
+  
 
 insertNum = int(input('Enter the insert number'))
 if insertNum > numbers[4]:
